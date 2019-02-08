@@ -1,0 +1,25 @@
+body {
+  background-color: $bgColor;
+  color: $textColor;
+  font-size: $fontSize;
+}
+
+section {
+  p {
+    @include box;
+  }
+}
+
+nav {
+  ul {
+    display: flex;
+    flex-flow: row nowrap;
+    li {
+      list-style: none;
+      @include box;
+      a {
+        @include link;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@mixin box {
+  background: black;
+  border: 2px solid $textColor;
+  padding: 15px;
+  @include roundy;
+}
+
+@mixin roundy {
+  border-radius: 8px;
+}
+
+@mixin link {
+  font-family: monospace;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: $textColor;
+}
