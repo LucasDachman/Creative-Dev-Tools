@@ -1,0 +1,11 @@
+body {
+  @include background(linear-gradient(to bottom, red, blue));
+  padding: 400px;
+  h1 {
+    @include heading;
+  }
+  p {
+    text-align: center;
+    color: white;
+  }
+}
