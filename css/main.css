@@ -1,0 +1,37 @@
+@import url(../css/normalize.css);
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Libre+Barcode+39+Text");
+body {
+  background-color: #ffefe2;
+  color: #c47021;
+  font-family: "Hammersmith One"; }
+
+.container {
+  width: 90%;
+  margin: auto; }
+
+header h1:first-of-type {
+  font-size: 80px;
+  font-family: 'Libre Barcode 39 Text', serif;
+  letter-spacing: 20px; }
+
+.assignments {
+  margin-bottom: 50vh;
+  display: flex;
+  flex-flow: column nowrap; }
+  .assignments a, .assignments a:link, .assignments a:visited {
+    border: 1px solid #110800;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #c47021;
+    background-color: #ffefe2;
+    font-size: 45px;
+    margin: 60px 0px;
+    transition-property: background-color, color;
+    transition-duration: 80ms; }
+  .assignments a:hover, .assignments a:active {
+    background-color: #dda26b;
+    color: #ffefe2; }
+
+/*# sourceMappingURL=main.css.map */

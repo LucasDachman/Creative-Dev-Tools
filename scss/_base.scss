@@ -1,0 +1,41 @@
+body {
+  background-color: $white;
+  color: $primary-color;
+  font-family: "Hammersmith One";
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+header h1:first-of-type {
+  font-size: 80px;
+  font-family: 'Libre Barcode 39 Text', serif;
+  letter-spacing: 20px;
+}
+
+.assignments {
+  margin-bottom: 50vh;
+  display: flex;
+  flex-flow: column nowrap;
+
+  a, a:link, a:visited {
+    border: 1px solid $black;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: $primary-color;
+    background-color: $white;
+    font-size: 45px;
+    margin: 60px 0px;
+    transition-property: background-color, color;
+    transition-duration: 80ms;
+  }
+
+  a:hover, a:active {
+    background-color: $background-color;
+    color: $white;
+  }
+}
