@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>A-Frame basics</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/bundle.js" defer></script>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <a-scene>
+    <a-sphere position='1 1 -9' radius='2' src='img/space.jpg' animation='property:rotation; dur:2000; loop:true; from:0 0 0; to:360 360 360; easing:linear;'
+    animation__pos='property:position; dur:2000; loop:true; from: 1 1 -9; to: 1 1 -100; dir:alternate; easing:easeInOutSine'></a-sphere>
+    <a-sphere position='1 1 -9' radius='2' src='img/space.jpg' animation='property:rotation; dur:2000; loop:true; from:0 0 0; to:360 360 360; easing:linear;'
+    animation__pos='property:position; dur:2000; loop:true; from: 1 1 -9; to: 1 -100 -9; dir:alternate; easing:easeInOutSine'></a-sphere>
+    <a-sphere position='1 1 -9' radius='2' src='img/fire.png' animation='property:rotation; dur:2000; loop:true; from:0 0 0; to:360 360 360; easing:linear;'
+    animation__pos='property:position; dur:2000; loop:true; from: 1 1 -9; to: -100 1 -100; dir:alternate; easing:easeInOutSine'></a-sphere>
+    <!-- <a-box position='1 3.3 -3' src='img/fire.png' animation='property:rotation; dur:200; loop:true; from:0 0 0; to:360 360 360; easing:linear'
+    animation__pos='property:position; dur:1000; loop:true; from: 1 3.3 -3; to: 1 3.3 -100; dir:alternate; easing:easeInOutCubic'></a-box> -->
+  </a-scene>
+
+  <!-- Add your site or application content here -->
+  <p>Hello world! This is HTML5 Boilerplate.</p>
+</body>
+
+</html>
